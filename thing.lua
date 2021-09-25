@@ -31,7 +31,7 @@ local themes = {
 	LightContrast = Color3.fromRGB(20, 20, 20),
 	DarkContrast = Color3.fromRGB(14, 14, 14),
 	TextColor = Color3.fromRGB(255, 255, 255),
-	Transparency = .5
+	Transparency = 0
 }
 
 do
