@@ -340,7 +340,7 @@ do
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
-				TextTransparency = 0.65,
+				TextTransparency = 0,
 				TextXAlignment = Enum.TextXAlignment.Left
 			}),
 			icon and utility:Create("ImageLabel", {
@@ -352,7 +352,7 @@ do
 				ZIndex = 3,
 				Image = "rbxassetid://" .. tostring(icon),
 				ImageColor3 = themes.TextColor,
-				ImageTransparency = 0.64
+				ImageTransparency = 0
 			}) or {}
 		})
 		
@@ -865,7 +865,7 @@ do
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
-				TextTransparency = 0.10000000149012
+				TextTransparency = 0
 			})
 		})
         
@@ -902,7 +902,7 @@ do
                     Text = ToolTipText,
                     TextColor3 = themes.TextColor,
                     TextSize = 12,
-                    TextTransparency = 0.10000000149012
+                    TextTransparency = 0
                 })
             })
 
@@ -985,7 +985,7 @@ do
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
-				TextTransparency = 0.10000000149012,
+				TextTransparency = 0,
 				TextXAlignment = Enum.TextXAlignment.Left
 			}),
 			utility:Create("ImageLabel", {
@@ -1048,7 +1048,7 @@ do
                     Text = ToolTipText,
                     TextColor3 = themes.TextColor,
                     TextSize = 12,
-                    TextTransparency = 0.10000000149012
+                    TextTransparency = 0
                 })
             })
 
@@ -1227,7 +1227,7 @@ do
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
-				TextTransparency = 0.10000000149012,
+				TextTransparency = 0,
 				TextXAlignment = Enum.TextXAlignment.Left
 			}),
 			utility:Create("ImageLabel", {
@@ -1289,7 +1289,7 @@ do
                     Text = ToolTipText,
                     TextColor3 = themes.TextColor,
                     TextSize = 12,
-                    TextTransparency = 0.10000000149012
+                    TextTransparency = 0
                 })
             })
 
@@ -1387,7 +1387,7 @@ do
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
-				TextTransparency = 0.10000000149012,
+				TextTransparency = 0,
 				TextXAlignment = Enum.TextXAlignment.Left
 			}),
 			utility:Create("ImageButton", {
@@ -2084,7 +2084,7 @@ do
 					Text = title,
 					TextColor3 = themes.TextColor,
 					TextSize = 12,
-					TextTransparency = 0.10000000149012,
+					TextTransparency = 0,
 					TextXAlignment = Enum.TextXAlignment.Left
 				}),
 				utility:Create("ImageButton", {
@@ -2166,7 +2166,7 @@ do
 			    Text = ToolTipText,
 			    TextColor3 = themes.TextColor,
 			    TextSize = 12,
-			    TextTransparency = 0.10000000149012
+			    TextTransparency = 0
 			})
 		    })
 
